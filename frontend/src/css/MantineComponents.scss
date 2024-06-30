@@ -1,0 +1,41 @@
+// dark mode
+.input-dark {
+    .mantine-TextInput-input {
+        background-color: #202838;
+        color: #fff;
+    }
+    .mantine-Select-input{
+        background-color: #202838;
+        color: #fff;
+    }
+    .mantine-Stepper-steps, .mantine-Stepper-stepIcon, .mantine-Stepper-stepCompletedIcon,
+    .mantine-Stepper-stepLabel, .mantine-Stepper-stepDescription, .mantine-Stepper-separator {
+        color: #fff;
+    }
+    .mantine-Select-options, .mantine-ScrollArea-root {
+        color: #fff; 
+    }
+    ::placeholder {
+        //color: #dddddd;
+        color: green;
+    }
+}
+
+
+
+
+
+// light mode - TODO figure out palette
+.input-light {
+    .mantine-TextInput-input {
+        background-color: green;
+        color: #fff;
+    }
+    ::placeholder {
+        color: #fff;
+    }
+}
+
+.mantine-Select-options-light {
+    color: #000;
+}

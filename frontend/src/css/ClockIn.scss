@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    //width: 300px;
+    /* Adjust according to your design */
+    //height: 300px;
+    /* Adjust according to your design */
+}
+
+.png-image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    /* Adjust positioning as needed */
+    left: 30px;
+    /* Adjust positioning as needed */
+    z-index: 20;
+    /* Ensure the image is above other content */
+}
+
+.png-image-center {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    /* Adjust positioning as needed */
+    left: 30px;
+    /* Adjust positioning as needed */
+    z-index: 0;
+    /* Ensure the image is above other content */
+}
+
+.html-element {
+    position: relative;
+    //z-index: 2;
+    /* Ensure the HTML element is above the image */
+    //background-color: rgba(255, 255, 255, 0.7);
+    /* Example background color with opacity */
+    //padding: 20px;
+    /* Example padding */
+}
+
+#map {
+    // position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.ol-attribution {
+    position: absolute;
+    bottom: 0em;  
+    font-size: 10px;
+}

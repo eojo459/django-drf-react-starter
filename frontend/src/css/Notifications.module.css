@@ -1,0 +1,30 @@
+.root {
+    /* background-color: var(--notification-color, var(--mantine-primary-color-filled)); */
+    /* background-color: #324D3E; */
+    background-color: #324D3E;
+    color: #dcdcdc;
+    font-family: "AK-Medium";
+
+    &::before {
+        background-color: var(--mantine-color-white);
+    }
+}
+
+.description {
+    color: #dcdcdc;
+    font-size: 18px;
+}
+
+.title {
+    /* color: var(--mantine-color-white); */
+    color: #dcdcdc;
+    font-size: 25px;
+}
+
+.closeButton {
+    color: var(--mantine-color-white);
+
+    @mixin hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}

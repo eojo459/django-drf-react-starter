@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>VerifiedHours Subscription Renewed</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="email-container">
+            <div class="header">
+                <h2>Subscription renewed 😎</h2>
+            </div>
+            <div class="content">
+                <p>Hello {{ first_name }},</p>
+                <p>Your subscription with [SERVICE] has been renewed!</p>
+                <p>We’re excited to have you with us and look forward to providing you with the best experience possible.</p>
+                <p>Here are your subscription details:</p>
+                <ul>
+                    <li><b>Plan:</b> {{ plan }} </li>
+                    <li><b>Subscription type:</b> {{ subscription_type }} </li>
+                    <li><b>Next billing date:</b> your subscription will automatically renew on {{ renewal_date }}</li>
+                </ul> 
+                <p>Please see the attached invoice. You will be sent an invoice everytime your subscription renews.</p>
+                <!-- <p>If you have any questions or need assistance, our support team is here to help. Simply email us at support@EMAIL.com or visit our Help Center.</p> -->
+                <p>If you have any questions or need assistance, our support team is here to help. Simply email us at support@EMAIL.com.</p>
+                <p>Thank you for choosing [SERVICE]! We’re excited to support you on your journey! 🚀</p>
+                <p>Best regards,</p>
+                <p>[SERVICE]</p>
+            </div>
+            <!-- <div class="footer">
+                &copy; {{ year }} [SERVICE]. All rights reserved.
+            </div> -->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+.th {
+    padding: 0;
+}
+
+.control {
+    /*width: 100%;*/
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+
+    @mixin hover {
+        background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+    }
+}
+
+.icon {
+    width: rem(21px);
+    height: rem(21px);
+    border-radius: rem(21px);
+}
+
+.input {
+    border-radius: 10px !important;
+    outline: none !important;
+    border-color: transparent !important;
+    background-color: #42554e !important;
+    color: #dcdcdc !important;
+    font-family: 'AK-Regular' !important;
+}
+
+.input:focus {
+    outline: 4px solid #639383 !important;
+    outline-offset: -1px !important;
+    background-color: #42554e !important;
+    color: #dcdcdc !important;
+}
+
+.item {
+    background-color: transparent !important;
+}
+
+.item:hover {
+    background-color: #4f7563 !important;
+    border-radius: 10px !important;
+}

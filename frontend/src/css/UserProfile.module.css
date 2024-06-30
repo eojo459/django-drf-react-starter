@@ -1,0 +1,58 @@
+.mantine-Paper-root:hover {
+    transform: scale(1.2); /* Increase scale size to 120% on hover */
+}
+
+/* .root {
+    position: relative;
+} */
+
+.input {
+    /*height: 64px;*/
+    /*padding-top: 18px;*/
+    border-radius: 10px !important;
+    outline: none !important;
+    border-color: transparent !important;
+    /* background-color: #32363f !important; */
+    background-color: #42554e !important;
+    color: #dcdcdc !important;
+    font-family: 'AK-Regular' !important;
+}
+
+.input:focus {
+    /*outline: 4px solid rgb(133, 133, 153) !important;*/
+    outline: 4px solid #639383 !important;
+    outline-offset: -1px !important;
+    color: #dcdcdc !important;
+    background-color: #42554e !important;
+}
+
+/* .wrapper:focus {
+    outline: 4px solid rgb(133, 133, 153);
+    outline-offset: -1px;
+} */
+
+.dropdown {
+    background-color: #24352f !important;
+    color: #dcdcdc !important;
+    border: transparent !important;
+    box-shadow: 0px 7px 10px #0c110f !important;
+    border-radius: 10px !important;
+    font-family: 'AK-Regular' !important;
+}
+
+.option {
+    background-color: #24352f !important;
+}
+
+.option:hover {
+    background-color: #3c5b4c !important;
+}
+
+.label {
+    font-size: var(--mantine-font-size-lg);
+    font-weight: 700;
+}
+
+.placeholder {
+    font-weight: 700;
+}

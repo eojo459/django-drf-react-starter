@@ -1,0 +1,8 @@
+// Styles for screens smaller than 1650px
+@media only screen and (max-width: 1650px) {
+    .label {
+        margin-left: -10px;
+        margin-right: -10px;
+        //background-color: green;
+    }
+}

@@ -1,0 +1,30 @@
+.tableHeader {
+    background-color: #b8b6b6;
+    position: -webkit-sticky;
+    position: sticky;
+    //top: 0px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.stickyDateHeader {
+    position: sticky;
+    top: 110px;
+    z-index: 3;
+    //color: gray;
+}
+
+.mantine-Accordion-control {
+    background-color: #25352F;
+}
+
+.mantine-Accordion-panel {
+    background-color: #25352F;
+}

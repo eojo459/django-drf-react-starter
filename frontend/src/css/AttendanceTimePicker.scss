@@ -1,0 +1,36 @@
+// time input css for dark mode
+.timeInputDark {
+    &:disabled,
+    &[data-disabled] {
+      //border-color: light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+      border-color: rgba(236, 239, 241, 0.1);
+      background-color: rgba(46, 47, 54, 0.706);
+      color: white;
+    }
+}
+
+// time input css for light mode
+.timeInputLight {
+    &:disabled,
+    &[data-disabled] {
+      //border-color: light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+      //border-color: rgba(236, 239, 241, 0.81);
+      // border-color: rgba(224, 227, 228, 0.81);
+      border-color: transparent !important;
+      // background-color: #f8f8f8;
+      background-color: #42554e !important;
+      color: #dcdcdc;
+    }
+}
+
+// Styles for screens smaller than 1650px
+@media only screen and (max-width: 1650px) {
+  .copy-responsive {
+    max-width: 40px;
+  }
+}
+
+// screens >= 1651px
+@media only screen and (min-width: 1651px) {
+  //
+}

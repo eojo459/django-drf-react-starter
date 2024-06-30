@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>VerifiedHours Subscription Cancelled</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="email-container">
+            <div class="header">
+                <!-- <img src="C:\Users\jamo\Documents\Visual Studio Projects\BusinessManagement\BusinessManagement\frontend\src\assets\VerifiedHoursLogo2.png" alt="static image"> -->
+                <h2>It was a pleasure working with you 🙂</h2>
+            </div>
+            <div class="content">
+                <p>Hello {{ first_name }},</p>
+                <p>We’re sorry to see you go!</p>
+                <p>Your subscription to [SERVICE] has been successfully cancelled and you will not be charged again.</p>
+                <p>Here are the details of your cancellation:</p>
+                <ul>
+                    <li><b>Plan:</b> {{ plan }} </li>
+                    <li><b>Cancellation date:</b> {{ cancel_date }}</li>
+                    <li><b>Access until date:</b> you will have access until {{ term_end_date }}</li>
+                </ul> 
+                <p>We value your feedback and would love to hear about your experience.</p>
+                <p>If there’s anything we could have done better, please let us know by emailing us at feedback@EMAIL.com or filling out our feedback form</p>
+                <p>Should you change your mind, you’re always welcome to rejoin us at any time. Visit https://URL.com/pricing to reactivate your account.</p>
+                <!-- <p>If you have any questions or need assistance, our support team is here to help. Simply email us at support@verifiedhours.com or visit our Help Center.</p> -->
+                <p>If you have any questions or need assistance, our support team is here to help. Simply email us at support@EMAIL.com.</p>
+                <p>Thank you for being a part of [SERVICE]. We wish you all the best! 💚</p>
+                <p>Best regards,</p>
+                <p>[SERVICE]</p>
+            </div>
+            <!-- <div class="footer">
+                &copy; {{ year }} [SERVICE]. All rights reserved.
+            </div> -->
+        </div>
+    </body>
+</html>

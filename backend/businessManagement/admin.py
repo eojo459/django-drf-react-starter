@@ -1,0 +1,25 @@
+from django.contrib import admin
+from .models import BusinessGroup, BusinessGroupRelationship, BusinessSchedule, BusinessType, SubscriptionPlan, BusinessProfilePlan, BusinessProfile, DayOfWeek, EmploymentType, HolidayRelationship, MonthlyTotalStaffHours, MonthlyTotalUserHours, MonthlyTotalWages, PayrollInformation, Position, StaffActivity, SubmittedTimesheets, TimesheetStatus, UnassignedUsers, UserActivity, UserStatus
+
+# Register your models here.
+admin.site.register(BusinessType)
+admin.site.register(SubscriptionPlan)
+admin.site.register(BusinessProfilePlan)
+admin.site.register(BusinessProfile)
+admin.site.register(BusinessGroup)
+admin.site.register(BusinessGroupRelationship)
+admin.site.register(BusinessSchedule)
+admin.site.register(DayOfWeek)
+admin.site.register(UnassignedUsers)
+admin.site.register(TimesheetStatus)
+admin.site.register(SubmittedTimesheets)
+admin.site.register(Position)
+admin.site.register(EmploymentType)
+admin.site.register(HolidayRelationship)
+admin.site.register(PayrollInformation)
+admin.site.register(UserStatus)
+admin.site.register(StaffActivity)
+admin.site.register(UserActivity)
+admin.site.register(MonthlyTotalStaffHours)
+admin.site.register(MonthlyTotalUserHours)
+admin.site.register(MonthlyTotalWages)

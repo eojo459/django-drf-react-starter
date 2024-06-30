@@ -1,0 +1,132 @@
+const businessId = 1;
+const emergencyContactId = 1;
+
+export const ChildDataLocal = [
+    {
+        business_id: businessId,
+        first_name: "Chase",
+        last_name: "TheBag",
+        street: "123 Calgary Way",
+        city: "Calgary",
+        province: "AB",
+        country: "Canada",
+        postal_code: "T3K 2E5",
+        gender: "Male",
+        date_of_birth: "1998-01-26",
+        allergies: "allergic to failure",
+        medical_info: "",
+        notes: ""
+    },
+    {
+        business_id: businessId,
+        first_name: "Danny",
+        last_name: "Phantom",
+        street: "51 Pumpkin Avenue",
+        city: "Calgary",
+        province: "AB",
+        country: "Canada",
+        postal_code: "T3K 3N2",
+        gender: "Male",
+        date_of_birth: "1999-11-20",
+        allergies: "",
+        medical_info: "",
+        notes: "can go invisible (super cool)"
+    },
+    {
+        business_id: businessId,
+        first_name: "Patrick",
+        last_name: "Star",
+        street: "4450 Centre Street",
+        city: "Calgary",
+        province: "AB",
+        country: "Canada",
+        postal_code: "T3K 2F7",
+        gender: "Male",
+        date_of_birth: "2000-12-01",
+        allergies: "",
+        medical_info: "may eat rocks",
+        notes: "cool dude"
+    },
+    {
+        business_id: businessId,
+        first_name: "Johnny",
+        last_name: "Test",
+        street: "3802 Blue Rocks Road",
+        city: "Porkbelly",
+        province: "NS",
+        country: "Canada",
+        postal_code: "B0J 2C0",
+        gender: "Male",
+        date_of_birth: "1998-03-12",
+        allergies: "",
+        medical_info: "",
+        notes: "super inventor genius"
+    }
+];
+
+export const ParentDataLocal = [
+    {
+        business_id: businessId,
+        first_name: "Mary",
+        last_name: "Booher",
+        street: "4873 Willow Oaks Lane",
+        city: "Calgary",
+        province: "AB",
+        country: "Canada",
+        postal_code: "T3K 2E5",
+        gender: "Female",
+        cell_number: "403-999-1123",
+        work_number: "403-888-9999",
+        home_number: "",
+        email: "mary.booher@email.com",
+        notes: ""
+    },
+    {
+        business_id: businessId,
+        first_name: "Jose",
+        last_name: "Sherman",
+        street: "41606 St Jean Baptiste St",
+        city: "Quebec",
+        province: "QC",
+        country: "Canada",
+        postal_code: "G0M 1Y0",
+        gender: "Male",
+        cell_number: "819-652-3767",
+        work_number: "819-444-2222",
+        home_number: "",
+        email: "jose.sherman@email.com",
+        notes: ""
+    },
+    {
+        business_id: businessId,
+        first_name: "Nathan",
+        last_name: "James",
+        street: "4343 James Street",
+        city: "Calgary",
+        province: "AB",
+        country: "Canada",
+        postal_code: "T3K 7B1",
+        gender: "Male",
+        cell_number: "403-999-1123",
+        work_number: "403-888-9999",
+        home_number: "",
+        email: "nathan.james@email.com",
+        notes: ""
+    },
+    {
+        business_id: businessId,
+        first_name: 'Uncle',
+        last_name: 'Iroh',
+        street: 'Ba sing se street Earth Kingdom',
+        city: 'Calgary',
+        province: 'AB',
+        country: 'Canada',
+        postal_code: 'T2K 5B1',
+        gender: 'Male',
+        cell_number: '4035551111',
+        work_number: '',
+        home_number: '',
+        email: 'uncle.iroh@email.com',
+        notes:'',
+    }
+];
