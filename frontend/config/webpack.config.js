@@ -756,6 +756,9 @@ module.exports = function (webpackEnv) {
             },
           },
         }),
+      new webpack.ProvidePlugin({
+        process: 'process/browser.js',
+      }),
     ].filter(Boolean),
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter
