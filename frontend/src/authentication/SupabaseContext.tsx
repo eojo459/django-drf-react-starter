@@ -18,10 +18,10 @@ interface EmailData {
 }
 
 // Create a single supabase client for interacting with your database
-let supabaseKey = process.env.SUPABASE_KEY;
-if (!supabaseKey) supabaseKey = '';
-export const supabase = createClient('https://cmkoomcgbmueihzpvtck.supabase.co', supabaseKey)
-const supabase_admin = createClient('https://cmkoomcgbmueihzpvtck.supabase.co', supabaseKey, {
+const supabaseKey = process.env.REACT_APP_SUPABASE_KEY;
+const supabaseServiceKey = process.env.REACT_APP_SUPABASE_SERVICE_KEY;
+export const supabase = createClient('https://cmkoomcgbmueihzpvtck.supabase.co', supabaseKey!)
+const supabase_admin = createClient('https://cmkoomcgbmueihzpvtck.supabase.co', supabaseServiceKey!, {
     auth: {
       autoRefreshToken: false,
       persistSession: false
